@@ -1,26 +1,24 @@
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
-}
-
-.container {
-    text-align: center;
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.hidden {
-    display: none;
-}
-
-input {
-    padding: 10px;
-    margin: 10px 0;
-    width: 80%;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbon Emission Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Carbon Emission Calculator</h1>
+        <input type="number" id="emissions" placeholder="Enter carbon emissions in tons" required>
+        <button id="calculate">Calculate</button>
+        <div id="results" class="hidden">
+            <p>Carbon Credits: <span id="credits"></span></p>
+            <p>Trees Needed: <span id="trees"></span></p>
+            <button id="openCamera">Open Camera</button>
+            <p id="location" class="hidden"></p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
