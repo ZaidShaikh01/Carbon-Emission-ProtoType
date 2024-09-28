@@ -1,0 +1,1 @@
+This is a protype of our model that deals with carbon emission management which helps to balance carbon credits. This model will give the number of trees needed to balance out carbon credits and monitors the process through live camera and live location. Camera will only work when the access to location Services is permitted.
